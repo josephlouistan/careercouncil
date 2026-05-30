@@ -39,6 +39,13 @@
     -webkit-font-smoothing:antialiased;
   }
   .wrap{max-width:var(--max);margin:0 auto;padding:0 22px;}
+  .brandbar{border-bottom:1px solid var(--border);}
+  .brandbar .wrap{display:flex;align-items:center;min-height:58px;}
+  .brandbar a.brand{display:inline-flex;align-items:center;gap:8px;text-decoration:none;}
+  .brandbar .brand-mark{display:block;flex:none;}
+  .brandbar .brand-word{display:flex;flex-direction:column;line-height:1;gap:0;}
+  .brandbar .brand-word span{font-weight:900;font-size:13px;color:var(--ink);letter-spacing:.08em;}
+  .brandbar a.brand:hover .brand-word span{color:var(--yellow-deep);}
   h1,h2,h3{color:var(--ink);font-weight:700;line-height:1.15;margin:0;}
   a{color:inherit;}
   .fade{opacity:0;transform:translateY(10px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards;}
@@ -114,6 +121,15 @@
 </style>
 </head>
 <body>
+
+<nav class="brandbar">
+  <div class="wrap">
+    <a class="brand" href="https://www.careercreators.com/" aria-label="Career Creators home">
+      <svg class="brand-mark" width="28" height="28" viewBox="0 0 240 240" fill="none" aria-hidden="true"><path d="M96 52.1211C90.3836 54.1069 85.005 56.79 79.9991 60.1348C68.1587 68.0462 58.93 79.292 53.4805 92.4482C48.0312 105.604 46.6057 120.081 49.3838 134.048C52.162 148.014 59.0187 160.844 69.0879 170.913C79.1572 180.982 91.9867 187.839 105.953 190.617C119.92 193.395 134.397 191.97 147.554 186.521C160.71 181.071 171.955 171.842 179.866 160.002C183.211 154.996 185.893 149.617 187.879 144.001H237.574C234.478 159.169 228.461 173.671 219.776 186.669C206.591 206.403 187.849 221.784 165.922 230.866C143.995 239.949 119.867 242.326 96.5889 237.695C73.3113 233.065 51.9297 221.636 35.1475 204.854C18.3653 188.071 6.93597 166.69 2.30571 143.412C-2.32451 120.134 0.0523052 96.0062 9.13481 74.0791C18.2173 52.152 33.5982 33.4104 53.3321 20.2246C66.3301 11.5396 80.8322 5.52202 96 2.42578V52.1211Z" fill="#111111"/><rect x="128" width="112" height="48" fill="#111111"/><rect x="240" width="112" height="48" transform="rotate(90 240 0)" fill="#111111"/><rect x="240" y="33.9414" width="168" height="48" transform="rotate(135 240 33.9414)" fill="#111111"/></svg>
+      <span class="brand-word"><span>CAREER</span><span>CREATORS</span></span>
+    </a>
+  </div>
+</nav>
 
 <header class="hero">
   <div class="wrap">
