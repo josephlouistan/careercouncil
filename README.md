@@ -1,4 +1,5 @@
 # The Career Council
+![The Career Council](header.png)
 
 A free tool that runs any career decision past the people who actually decide a career, then hands you a verdict.
 
