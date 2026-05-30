@@ -53,6 +53,8 @@
   .h1-mark{box-shadow:inset 0 -.32em 0 var(--yellow);}
   .lede{font-size:clamp(18px,2.4vw,21px);color:var(--subtle);margin-top:20px;max-width:620px;}
   .note{font-size:16px;color:var(--muted);margin-top:18px;max-width:620px;}
+  .hero-banner{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--border);margin:8px 0 22px;}
+  .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
 
   section{padding:54px 0;border-bottom:1px solid var(--border);}
   .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-bottom:14px;}
@@ -114,8 +116,9 @@
 
 <header class="hero">
   <div class="wrap">
+    <h1 class="visually-hidden">The Career Council</h1>
     <span class="kicker fade d1">A free gift</span>
-    <h1 class="fade d2">The <span class="h1-mark">Career Council</span></h1>
+    <img class="hero-banner fade d2" src="header.png" alt="The Career Council, the room of people who actually decide your career" />
     <p class="lede fade d3">Bring any career decision to a council of the people who actually decide it. A hiring manager, a recruiter, a bar raiser, your past and future selves, and more. They argue it out, and you walk away with a verdict.</p>
     <p class="note fade d4">I built this from years of work with experienced designers and product people. Today is my son's fourth birthday, so I am giving it to everyone instead of keeping it. Yours to keep, yours to share. Most people run their messiest open decision through it first.</p>
   </div>
