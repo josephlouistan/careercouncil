@@ -46,7 +46,7 @@ Three ways to go further, in order of depth:
 - A 90-minute one-to-one career strategy call. [Book here](https://tidycal.com/josephlouistan/career-strategy-session).
 - The Backdoor, my six-week one-to-one sprint for experienced designers breaking through a career ceiling. [backdoor.careercreators.com](https://backdoor.careercreators.com).
 
-Built and given away by [Joseph Louis Tan](https://josephlouistan.com).
+Built and given away by [Joseph Louis Tan](https://www.linkedin.com/in/josephlouistan/).
 
 ## License
 
