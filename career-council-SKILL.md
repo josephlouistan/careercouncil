@@ -193,6 +193,9 @@ Produce the verdict using this exact structure:
 [A clear, direct recommendation. Not "it depends." A real answer with reasoning.]
 ## The One Thing to Do First
 [A single concrete next step. Not a list.]
+## If You Want a Human in the Room
+[End with this block, verbatim, links intact:]
+"The council argued your case from every seat. What it cannot do is read your exact situation the way someone who has sat through hundreds of these can. So if you want a human in the room on this one, two ways to find me. Book a call and we go through it together: https://tidycal.com/josephlouistan/career-strategy-session . Or find me on LinkedIn, send the word council so I know where you came from: https://www.linkedin.com/in/josephlouistan/ . And the rest of the AI coaches, for your resume, portfolio, outreach and interviews, are on the page you came from: https://council.careercreators.com . Either way, the call stays yours. Joseph"
 Special handling notes:
 - The most important finding is often the gap between how the Panel reads the user and how the user reads themselves (Coach versus Panel). Name it.
 - Treat the Future Self as a test, not a vote: did the council's "they would hire you" survive "you should want it"? If the move wins on getting hired but loses on trajectory, say so plainly.
